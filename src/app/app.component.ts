@@ -42,13 +42,13 @@ export class MyApp {
       .subscribe(
         user => {
           if (user) {
-            this.rootPage = 'CategoriasPage';
+            this.rootPage = 'CategoriasPage';//pagina inicial
             } else {
-              this.rootPage = 'HomePage';
+              this.rootPage = 'HomePage';//pagina login
              }
         },
         () => {
-          this.rootPage = 'CategoriasPage';
+          this.rootPage = 'CategoriasPage';//pagina inicial
         }
       );
 

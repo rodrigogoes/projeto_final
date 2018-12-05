@@ -1,8 +1,8 @@
   export const FirebaseConfig = {
-    apiKey: "AIzaSyA9R3fNmXy695ECVTTv8O7XivtNxe_kaBc",
-    authDomain: "testelogin-7857e.firebaseapp.com",
-    databaseURL: "https://testelogin-7857e.firebaseio.com",
-    projectId: "testelogin-7857e",
-    storageBucket: "testelogin-7857e.appspot.com",
-    messagingSenderId: "253901890679"
+    apiKey: "AIzaSyDIZPkQ_kfTzX-3MqHiU8UKweel5YrgsEU",
+    authDomain: "startech-4bc47.firebaseapp.com",
+    databaseURL: "https://startech-4bc47.firebaseio.com",
+    projectId: "startech-4bc47",
+    storageBucket: "startech-4bc47.appspot.com",
+    messagingSenderId: "932950394592"
   };
