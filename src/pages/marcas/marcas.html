@@ -13,103 +13,27 @@
 
 
 
-  <ion-card>
+  <ion-card *ngFor = "let cadastro of cadastro">
     <img src="../../assets/imgs/hp.jpg"/>
     <ion-card-content>
       <ion-card-title>
-        HP
+        {{cadastro.nome_empresa}}
         </ion-card-title>
       <p>
-          A empresa incentiva o descarte de equipamentos antigos e obsoletos da marca através de seu Programa de Reciclagem
+          {{cadastro.cnpj}}
+      </p><p>
+          {{cadastro.nome}}
+      </p><p>
+          {{cadastro.telefone}}
+      </p><p>
+          {{cadastro.endereco}}
+      </p><p>
+          {{cadastro.email}}
       </p>
     </ion-card-content>
+
   </ion-card>
 
-  <ion-card>
-      <img src="../../assets/imgs/sony.jpg"/>
-      <ion-card-content>
-        <ion-card-title>
-          HP
-          </ion-card-title>
-        <p>
-            A empresa incentiva o descarte de equipamentos antigos e obsoletos da marca através de seu Programa de Reciclagem
-        </p>
-      </ion-card-content>
-    </ion-card>
 
-  <ion-card>
-      <img src="../../assets/imgs/dell.jpg"/>
-      <ion-card-content>
-        <ion-card-title>
-          HP
-          </ion-card-title>
-        <p>
-            A empresa incentiva o descarte de equipamentos antigos e obsoletos da marca através de seu Programa de Reciclagem
-        </p>
-      </ion-card-content>
-    </ion-card>
-
-  <ion-card>
-      <img src="../../assets/imgs/philips.jpg"/>
-      <ion-card-content>
-        <ion-card-title>
-          HP
-          </ion-card-title>
-        <p>
-            A empresa incentiva o descarte de equipamentos antigos e obsoletos da marca através de seu Programa de Reciclagem
-        </p>
-      </ion-card-content>
-    </ion-card>
-
-  <ion-card>
-      <img src="../../assets/imgs/motorola.jpg"/>
-      <ion-card-content>
-        <ion-card-title>
-          HP
-          </ion-card-title>
-        <p>
-            A empresa incentiva o descarte de equipamentos antigos e obsoletos da marca através de seu Programa de Reciclagem
-        </p>
-      </ion-card-content>
-    </ion-card>
-
-  <ion-card>
-      <img src="../../assets/imgs/nokia.jpg"/>
-      <ion-card-content>
-        <ion-card-title>
-          HP
-          </ion-card-title>
-        <p>
-            A empresa incentiva o descarte de equipamentos antigos e obsoletos da marca através de seu Programa de Reciclagem
-        </p>
-      </ion-card-content>
-    </ion-card>
-
-  <ion-card>
-      <img src="../../assets/imgs/canon.jpg"/>
-      <ion-card-content>
-        <ion-card-title>
-          HP
-          </ion-card-title>
-        <p>
-            A empresa incentiva o descarte de equipamentos antigos e obsoletos da marca através de seu Programa de Reciclagem
-        </p>
-      </ion-card-content>
-    </ion-card>
-
-  <ion-card>
-      <img src="../../assets/imgs/carrefour.jpg"/>
-      <ion-card-content>
-        <ion-card-title>
-          HP
-          </ion-card-title>
-        <p>
-            A empresa incentiva o descarte de equipamentos antigos e obsoletos da marca através de seu Programa de Reciclagem
-        </p>
-      </ion-card-content>
-    </ion-card>
-  
-
-<ion-content padding></ion-content>
 
 </ion-content>
