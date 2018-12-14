@@ -10,6 +10,7 @@ import { AngularFireAuth } from 'angularfire2/auth';
 import { StorageService } from '../services/storage.service';
 import { AngularFirestoreModule } from 'angularfire2/firestore';
 import { AngularFireStorageModule } from 'angularfire2/storage';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { AngularFireStorageModule } from 'angularfire2/storage';
                                                     // firebase.config.ts
     AngularFirestoreModule,
     AngularFireStorageModule,
+    ReactiveFormsModule
 
   ],
   bootstrap: [IonicApp],

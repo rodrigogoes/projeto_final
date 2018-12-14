@@ -4,8 +4,10 @@ export interface cadastro {
     endereco: string;
     id : string;
     nome : string;
-    nome_empresa : string;
+    nomeEmpresa : string;
     telefone : string;
     email : string;
+    descricao: string;
+    imagem: string;
     
     }

@@ -13,8 +13,7 @@
 
 
 
-  <ion-card *ngFor = "let cadastro of cadastro">
-    <img src="../../assets/imgs/hp.jpg"/>
+  <!-- <ion-card *ngFor = "let cadastro of cadastro">
     <ion-card-content>
       <ion-card-title>
         {{cadastro.nome_empresa}}
@@ -30,9 +29,18 @@
       </p><p>
           {{cadastro.email}}
       </p>
-    </ion-card-content>
+    </ion-card-content> 
+  </ion-card>-->
 
-  </ion-card>
+  <ion-list *ngFor = "let cadastro of cadastro">
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="{{cadastro.imagem}}">
+      </ion-avatar>
+      <h1>{{cadastro.nomeEmpresa}}</h1>
+      <h2>Descrição: {{cadastro.descricao}}</h2>
+    </ion-item>
+  </ion-list>
 
 
 
