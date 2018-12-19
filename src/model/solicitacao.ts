@@ -1,4 +1,4 @@
-export interface cadastro {
+export interface solicitacao {
 
     cnpj : string;
     endereco: string;

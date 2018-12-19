@@ -33,7 +33,7 @@ export class MarcasPage {
 
   getList(){
     var postRef = firebase.firestore()
-    .collection("cadastro");
+    .collection("solicitacao");
 
     postRef.get().then(query => {
       query.forEach(doc => {

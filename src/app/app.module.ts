@@ -11,7 +11,7 @@ import { StorageService } from '../services/storage.service';
 import { AngularFirestoreModule } from 'angularfire2/firestore';
 import { AngularFireStorageModule } from 'angularfire2/storage';
 import { ReactiveFormsModule } from '@angular/forms';
-
+import { Geolocation } from '@ionic-native/geolocation';
 @NgModule({
   declarations: [
     MyApp
@@ -35,7 +35,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     AngularFireAuth,
-    StorageService
+    StorageService,
+    Geolocation
   ]
 })
 export class AppModule {}
